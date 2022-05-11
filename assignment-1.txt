@@ -1,0 +1,102 @@
+1.what is the distinction between a list and an array?
+ANS:
+
+List:-
+    The list is an important component used to collect multiple items in a single variable. It has the ability to collect items that usually consist of elements of multiple data types. These may include character logical values, numeric values, and more.
+Array:-
+    An array is also a vital component that collects several items. Arrays are also known as data structure. Python has several in-built data structures, such as arrays.
+
+2.what are the qualities of a binary tree?
+ANS:
+    A binary tree is a tree whose element or node can have a maximum of two children. Let’s look at this special case of trees and learn about their properties.
+
+Properties of binary trees
+The following are the properties of the binary trees:
+
+1. The minimum number of nodes at height h:
+In any binary tree, the minimum number of nodes will be one more than the value of height. This is the number of nodes required to construct a tree.
+
+Formula:
+
+Height = h.
+The minimum number of nodes = h+1.
+If h=3, then nodes will be 3+1= 4.
+2. The maximum number of nodes at height h:
+The maximum number of nodes that can be inserted in any binary tree of height h will be equal to 2h- 1.
+
+Formula:
+
+Height = h.
+Maximum nodes to inserted = 2h- 1.
+If h= 3, then 23- 1.
+8 -1= 7.
+Therefore, the maximum number of nodes to be inserted for the height of h=3 will be 7.
+
+3. Total number of leaf nodes:
+The number of leaf nodes in a binary tree is equal to the nodes with degree two, plus one. Say a binary tree has two children. Then the total number of leaf nodes of that binary tree will be one greater than the nodes having two children.
+
+Total number of leaf nodes = Nodes with 2 children + 1
+
+Example:
+Here, the total number of leaf nodes (no child or a successor) is 3, and the leaf nodes are E, F, and G.
+
+Whereas the nodes with two children are 2. Node A and B have 2 children. Hence, this proves the property.
+
+Binary tree
+4. The maximum number of nodes at any level:
+In a binary tree, the maximum number of nodes gained by any level is equal to the power of 2 for that level.
+
+In a simpler words, the level is donated by n. Then, maximum nodes of that binary tree will be 2n.
+
+Example:
+
+n = 2 then 22= 4.
+
+Level 2 coverts the nodes (D, E, F, and G).
+
+Binary tree with maximum number of nodes at any level
+5. Minimum possible height or levels is equal to Log2(N+1):
+This property says that the minimum number of levels or a height of a binary tree is the Log2 of (N+1). Here N represents the maximum number of nodes possessed by a binary tree at the height h.
+
+ We have already discussed property 2 along with the example. Let's use that answer to calculate the height h.
+
+N = 7 (Using Property#2)
+Log2 of (N+1) = Log2 of (7+1)
+Log2(8) = 3
+
+
+3.what is the best way to combiHeap is a special case of balanced binary tree data structure where the root-node key is compared with its children and arranged accordingly. If α has child node β then − key(α) ≥ key(β) As the value of parent is greater than that of child, this property generates Max Heap.ne two balanced binary search trees?
+ANS:
+    A binary search tree (BST) is a fundamental data structure and is a type of binary tree where the value of a left node is less than the parent and the value of a right node is greater than the parent.
+
+In this tutorial, we’re going to learn about two algorithms that can be used to merge two binary search trees. Also, we’ll discuss the complexity a.k.a Big O of these algorithms. The complexity of an algorithm is extremely important as it measures the amount of time and space required to run the algorithm.
+
+
+
+4.how would you describe heap in detail?
+ANS:A heap is a specialized tree-based data structure that satisfied the heap property: if B is a child node of A, then key(A) ≥ key(B). This implies that an element with the greatest key is always in the root node, and so such a heap is sometimes called a max-heap. Of course, there's also a min-heap.
+
+
+
+5.In terms of data structure,what is a HashMap?
+ANS:
+    HashMap is a dictionary data structure provided by java. It's a Map-based collection class that is used to store data in Key & Value pairs. In this article, we'll be creating our own hashmap implementation. The benefit of using this data structure is faster data retrieval.
+
+
+6.How do you explain the explexities of time and space?
+ANS:
+    Long-term exposure causes multiple health problems, one of the most significant being loss of bone and muscle mass. Over time these deconditioning effects can impair astronauts' performance, increase their risk of injury, reduce their aerobic capacity, and slow down their cardiovascular system.
+
+
+7.How do you recursively sort a stack?
+ANS:Sort Stack using Recursion
+A stack is a linear data structure that operates on the Last In First Out (LIFO) principle. This indicates that the last thing added to the stack is deleted first. The alternate word for a stack is LIFO, which refers to the order in which items are removed from it (last in, first out). This form of structure is called a "stack" because it resembles a stack of real goods placed on top of each other. This structure makes it simple to remove one item from the top of the stack, but removing an item from the bottom of the stack may need to remove numerous other things first. A peek action may also provide access to the top of the stack without altering it.
+
+Sorting a stack is useful for various tasks, including memory management, maintaining the context of a process in the event of an interrupt, and other high-priority tasks. Although we shall see the recursive approach here, sorting may also be done iteratively.
+
+
+     
+    
+    
+
+    
