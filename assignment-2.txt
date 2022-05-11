@@ -1,0 +1,90 @@
+1.What is a linked list?
+ANS:
+    A linked list is a data structure where the objects are arranged in a linear order. Unlike an array, however, in which the linear order is determined by the array indices, the order in a linked list is determined by a pointer in each object.
+
+2.what are the different forms of linked lists?
+ANS:
+    There are four key types of linked lists:
+
+Singly linked lists
+Doubly linked lists
+Circular linked lists
+Circular doubly linked lists
+Full Stack Web Developer Course
+To become an expert in MEAN StackVIEW COURSEFull Stack Web Developer Course
+What is a Singly Linked List?
+types_of_linked_list-singly-linked-list-img1
+
+A singly linked list is a unidirectional linked list. So, you can only traverse it in one direction, i.e., from head node to tail node.
+
+What is a Doubly Linked List?
+types_of_linked_list-doubly-linked-list-img1.
+
+A doubly linked list is a bi-directional linked list. So, you can traverse it in both directions. Unlike singly linked lists, its nodes contain one extra pointer called the previous pointer. This pointer points to the previous node.
+
+What is a Circular Linked List?
+types_of_linked_list-circular-linked-list-img1.
+
+A circular Linked list is a unidirectional linked list. So, you can traverse it in only one direction. But this type of linked list has its last node pointing to the head node. So while traversing, you need to be careful and stop traversing when you revisit the head node.
+
+What is a Circular Doubly Linked List?
+types_of_linked_list-circular-doubly-linked-list-img1
+
+A circular doubly linked list is a mixture of a doubly linked list and a circular linked list. Like the doubly linked list, it has an extra pointer called the previous pointer, and similar to the circular linked list, its last node points at the head node. This type of linked list is the bi-directional list. So, you can traverse it in both directions.
+
+Next, you will explore some of the applications of these linked lists.
+
+Stand Out From Your Peers this Appraisal Season
+Start Learning With Our FREE CoursesENROLL NOWStand Out From Your Peers this Appraisal Season
+What Are the Applications of Different Types of Linked Lists?
+types_of_linked_list-Applications-img1
+
+A linked list is used to implement stack and queues
+A linked list is used to represent sparse matrices
+You can implement an image viewer using a circular linked list
+You can use the linked list concept to navigate through web pages
+You can use a circular doubly linked list to implement a Fibonacci heap
+Advance your career as a MEAN stack developer with the Full Stack Web Developer - MEAN Stack Master's Program. Enroll now!
+Next Steps
+Diving into the specifics of "Singly Linked Lists" can be your next stop. Linked lists are made up of nodes that point to the next node. Linked lists are dynamic and have faster insertion/deletion time complexities.
+
+Looking for online training and certification in the field of software development? Feel free to explore Simplilearn in partnership with Purdue University & in collaboration with IBM. Featuring ask-me-anything sessions from IBM, a masterclass from Purdue, and many great benefits, this program will give you the work-ready software development training you need to succeed today. 
+
+If you have any questions about this tutorial, please feel free to leave them in the comment section below. Our 24/7 expert team will make sure to answer all your queries for you at the earliest.
+
+
+3.What is a linked list's purpose?
+ANS:
+    Linked lists are linear data structures that hold data in individual objects called nodes. These nodes hold both the data and a reference to the next node in the list. Linked lists are often used because of their efficient insertion and deletion.
+
+4.what are the advantages of linked lists over arrays?
+ANS:
+    Advantages of Linked List over Array
+1) Dynamic Data Structure:
+
+Linked List being a dynamic data structure can shrink and grow at the runtime by deallocating or allocating memory, so there is no need for an initial size in linked list.
+![](https://blog.prepbytes.com/wp-content/uploads/2021/09/p_1-1-2.png)
+
+Whereas an initial size has to be declared in an array, and the number of elements cannot exceed that size.
+2) No Memory Wastage:
+
+As the size of a linked list can grow or shrink at runtime, so there is no memory wastage. Only the required memory is allocated.
+In arrays, we have to first initialize it with a size which we may or may not fully use; hence wastage of memory may occur.
+3) Implementation:
+
+Some very helpful data structures like queues and stacks can be easily implemented using a Linked List.
+4) Insertion and Deletion Operation:
+
+In a Linked List, insertion and deletion operations are quite easy, as there is no need to shift every element after insertion or deletion. Only the address present in the pointers needs to be updated.
+While in an array, we have to shift elements. Suppose we have an array that is sorted, and now we need to insert some element in the array in a sorted way. Let arr[]= [ 1, 3 , 5, 7, ….. ], and we have to insert 2. So, all the elements after 1 have to move by one place towards the right.
+
+
+
+5.What is the purpose of a circular linked list?
+ANS:
+    Applications of Circular Linked List. Circular lists are used in applications where the entire list is accessed one-by-one in a loop. It is also used by the Operating system to share time for different users, generally uses a Round-Robin time-sharing mechanism.
+
+
+6.How will you explain circular linked list?
+ANS:
+    A circular linked list is a sequence of elements in which every element has a link to its next element in the sequence and the last element has a link to the first element. That means circular linked list is similar to the single linked list except that the last node points to the first node in the list.
